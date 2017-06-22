@@ -1,5 +1,6 @@
 {
   "name": "nytreact",
+  "homepage" : "https://nytreacthw.herokuapp.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,7 @@
     "react-scripts": "1.0.7"
   },
   "scripts": {
-    "dev-api": "node server/server.js",
+    "dev-api": "nodemon --watch server server/server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
